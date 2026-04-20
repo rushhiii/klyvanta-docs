@@ -1,0 +1,39 @@
+---
+title: SEO Checklist
+description: Production SEO defaults and verification tasks for a new docs launch.
+section: Reference
+order: 1
+updated: 2026-04-19
+tags:
+  - seo
+  - metadata
+  - verification
+---
+
+# SEO Checklist
+
+## Required configuration
+
+- Set `NEXT_PUBLIC_SITE_URL` to your production docs domain.
+- Confirm `metadataBase` resolves to that domain.
+- Ensure each doc page has canonical metadata.
+
+## Included by default
+
+- Global metadata in `src/app/layout.tsx`.
+- Per-page metadata in `src/app/docs/[[...slug]]/page.tsx`.
+- `robots.txt` route at `src/app/robots.ts`.
+- `sitemap.xml` route at `src/app/sitemap.ts`.
+
+## Optional verification tokens
+
+Set these if needed:
+
+- `GOOGLE_SITE_VERIFICATION`
+- `BING_SITE_VERIFICATION`
+
+## Post-deploy checks
+
+1. Open `/robots.txt` and verify sitemap URL.
+2. Open `/sitemap.xml` and verify canonical domain.
+3. Inspect page source for canonical, Open Graph, and Twitter tags.

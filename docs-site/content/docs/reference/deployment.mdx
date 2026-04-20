@@ -1,0 +1,44 @@
+---
+title: Deployment
+description: Deploy Docs Launchpad to Vercel with production-safe defaults.
+section: Reference
+order: 2
+updated: 2026-04-19
+tags:
+  - deployment
+  - vercel
+  - production
+---
+
+# Deployment
+
+## Deploy to Vercel
+
+1. Import the repository in Vercel.
+2. Set the root directory to `docs-site`.
+3. Add environment variables:
+   - `NEXT_PUBLIC_SITE_URL`
+   - `GOOGLE_SITE_VERIFICATION` (optional)
+   - `BING_SITE_VERIFICATION` (optional)
+4. Deploy and verify successful build output.
+
+## Submit sitemap
+
+### Google Search Console
+
+1. Open your property.
+2. Go to `Sitemaps`.
+3. Submit `https://your-domain.com/sitemap.xml`.
+
+### Bing Webmaster Tools
+
+1. Open your site.
+2. Go to `Sitemaps`.
+3. Submit `https://your-domain.com/sitemap.xml`.
+
+## Production checklist
+
+- Domain is using HTTPS.
+- Canonical URLs use production domain.
+- `robots.txt` is reachable and includes sitemap.
+- CI checks pass on default branch.

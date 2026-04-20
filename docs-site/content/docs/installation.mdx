@@ -1,0 +1,55 @@
+---
+title: Installation
+description: Install dependencies, configure environment variables, and prepare production settings.
+section: Getting Started
+order: 2
+updated: 2026-04-19
+tags:
+  - installation
+  - environment
+  - deployment
+---
+
+# Installation
+
+## Requirements
+
+- Node.js 20 or newer.
+- npm 10 or newer.
+
+## Install dependencies
+
+```bash
+npm install
+```
+
+## Configure environment variables
+
+Copy the example file and set your site URL:
+
+```bash
+cp .env.example .env.local
+```
+
+Required key:
+
+- `NEXT_PUBLIC_SITE_URL`
+
+Optional keys:
+
+- `GOOGLE_SITE_VERIFICATION`
+- `BING_SITE_VERIFICATION`
+
+## Verify setup
+
+Run checks before shipping:
+
+```bash
+npm run lint
+npm run typecheck
+npm run build
+```
+
+## Next step
+
+Continue to [Usage](/docs/usage) for authoring and customization patterns.

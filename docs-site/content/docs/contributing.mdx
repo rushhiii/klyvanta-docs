@@ -1,0 +1,35 @@
+---
+title: Contributing
+description: Contribution workflow for content, styling, and infrastructure updates.
+section: Reference
+order: 3
+updated: 2026-04-19
+tags:
+  - contributing
+  - workflow
+  - pull requests
+---
+
+# Contributing
+
+## Before opening a pull request
+
+1. Run `npm run lint`.
+2. Run `npm run typecheck`.
+3. Run `npm run build`.
+4. Verify links and navigation for changed pages.
+
+## Content contribution checklist
+
+- Include complete frontmatter.
+- Add clear headings for TOC generation.
+- Keep examples accurate and copy-paste friendly.
+- Link related pages to reduce dead ends.
+
+## Infrastructure changes
+
+When changing build config, SEO routes, or deployment logic, include:
+
+- What changed.
+- Why it changed.
+- How to validate behavior locally.
