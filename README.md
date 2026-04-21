@@ -1,111 +1,141 @@
-# docs-launchpad
+<p align="center">
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="./public/kdocs_logo_dark.png" />
+		<source media="(prefers-color-scheme: light)" srcset="./public/kdocs_logo_light.png" />
+		<img src="./public/kdocs_logo_dark.png" alt="KlyvantaDocs" width="760" />
+	</picture>
+</p>
 
-Build and ship stunning developer docs fast with a polished, production-ready starter that blends premium UX, SEO-first architecture, and frictionless MDX authoring.
+<p align="center">
+	<strong>KlyvantaDocs</strong><br />
+	Design-forward docs starter for product teams and open-source maintainers.
+</p>
 
-[![Live Docs Example](https://img.shields.io/badge/Live%20Docs-scriptablehub.vercel.app-111827?logo=vercel&logoColor=white)](https://scriptablehub.vercel.app)
-[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white)](https://nextjs.org)
-[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
-[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
-[![MDX](https://img.shields.io/badge/Content-MDX-1f2937)](https://mdxjs.com)
+<p align="center">
+	<img src="./public/klyvantadocs-home-banner.svg" alt="KlyvantaDocs homepage banner" width="100%" />
+</p>
 
-This repository is designed to be reused across product docs, SDK docs, API guides, and internal knowledge bases.
+<p align="center">
+	<a href="https://github.com/rushhiii/docs-launchpad/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rushhiii/docs-launchpad/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white" alt="CI" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/stargazers"><img src="https://img.shields.io/github/stars/rushhiii/docs-launchpad?label=stars" alt="GitHub stars" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/network/members"><img src="https://img.shields.io/github/forks/rushhiii/docs-launchpad?label=forks" alt="GitHub forks" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/issues"><img src="https://img.shields.io/github/issues/rushhiii/docs-launchpad?label=issues" alt="GitHub issues" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/pulls"><img src="https://img.shields.io/github/issues-pr/rushhiii/docs-launchpad?label=pull%20requests" alt="GitHub pull requests" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/commits/main"><img src="https://img.shields.io/github/last-commit/rushhiii/docs-launchpad?label=last%20commit" alt="Last commit" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad/graphs/commit-activity"><img src="https://img.shields.io/github/commit-activity/m/rushhiii/docs-launchpad?label=commit%20activity" alt="Commit activity" /></a>
+	<a href="https://github.com/rushhiii/docs-launchpad"><img src="https://img.shields.io/github/repo-size/rushhiii/docs-launchpad?label=repo%20size" alt="Repository size" /></a>
+</p>
 
-Live docs example built using this starter: https://scriptablehub.vercel.app
+<p align="center">
+	<img src="https://img.shields.io/badge/Next.js-16-000000?logo=nextdotjs&logoColor=white" alt="Next.js" />
+	<img src="https://img.shields.io/badge/React-19-149ECA?logo=react&logoColor=white" alt="React" />
+	<img src="https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white" alt="TypeScript" />
+	<img src="https://img.shields.io/badge/Tailwind_CSS-3.4-06B6D4?logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
+	<img src="https://img.shields.io/badge/Content-MD%2FMDX-22324D" alt="MDX" />
+	<img src="https://img.shields.io/badge/Node.js-20%2B-339933?logo=nodedotjs&logoColor=white" alt="Node.js" />
+	<img src="https://img.shields.io/badge/Lint-ESLint-4B32C3?logo=eslint&logoColor=white" alt="ESLint" />
+	<img src="https://img.shields.io/badge/Format-Prettier-F7B93E?logo=prettier&logoColor=111827" alt="Prettier" />
+	<img src="https://img.shields.io/badge/Deploy-Vercel-111827?logo=vercel&logoColor=white" alt="Vercel" />
+</p>
 
-## Alternative name ideas
+<p align="center">
+	<a href="#quick-start">Quick Start</a> |
+	<a href="#features">Features</a> |
+	<a href="#project-structure">Project Structure</a> |
+	<a href="#deployment">Deployment</a> |
+	<a href="#affinity-banner-workflow">Affinity Banner Workflow</a>
+</p>
 
-- `docforge-starter`
-- `atlas-docs-kit`
-- `shipdocs-template`
+## Why KlyvantaDocs
 
-## Why this starter
+KlyvantaDocs helps you ship premium documentation fast, with a polished docs shell, strong SEO defaults, and frictionless MDX authoring.
 
-- Premium docs shell: top nav, left sidebar, TOC, search command palette, and theme toggle.
-- MD/MDX content system with frontmatter-driven sections and ordering.
-- Auto-generated previous/next navigation and heading-based TOC.
-- SEO defaults included: canonical URLs, Open Graph/Twitter metadata, `robots.txt`, and `sitemap.xml`.
-- CI-ready with lint, typecheck, and build validation.
+Use it for:
 
-## Tech stack
+- Product documentation
+- SDK and API guides
+- Internal knowledge bases
+- Open-source docs websites
 
-- Next.js (App Router)
-- TypeScript
-- Tailwind CSS
-- MD/MDX content via gray-matter + react-markdown
-- ESLint + Prettier
+## Features
 
-## Project structure
+- App Router architecture with Next.js 16 + React 19
+- MD/MDX docs content with frontmatter-driven metadata and ordering
+- Responsive docs UI with topbar, sidebar, TOC, and command palette search
+- Built-in sitemap and robots routes for search indexing
+- Open Graph and Twitter metadata generation
+- Theme-aware branding support (light/dark logo variants)
+- CI workflow for install, lint, typecheck, and build verification
 
-- `src/` - Next.js app and docs UI components
-- `content/docs/` - Markdown and MDX documentation content
-- `.github/workflows/ci.yml` - CI pipeline (install, lint, typecheck, build)
-
-## Quick start
-
-1. Install dependencies:
+## Quick Start
 
 ```bash
 npm install
-```
-
-2. Configure environment variables:
-
-```bash
-cp .env.example .env.local
-```
-
-3. Run locally:
-
-```bash
 npm run dev
 ```
 
-4. Open `http://localhost:3000/docs/home`.
-
-## Environment variables
-
-See `.env.example`.
-
-- `NEXT_PUBLIC_SITE_URL` (required): production site URL used for canonical metadata and sitemap entries.
-- `GOOGLE_SITE_VERIFICATION` (optional): Google Search Console verification token.
-- `BING_SITE_VERIFICATION` (optional): Bing Webmaster verification token.
+Open http://localhost:3000/docs/home
 
 ## Scripts
-
-From repository root:
 
 - `npm run dev` - start local dev server
 - `npm run build` - production build
 - `npm run start` - run production build locally
-- `npm run lint` - run ESLint
+- `npm run lint` - run ESLint checks
 - `npm run typecheck` - run TypeScript checks
 - `npm run format` - check formatting with Prettier
-- `npm run format:write` - fix formatting with Prettier
+- `npm run format:write` - auto-format files with Prettier
 
-## Deploy to Vercel
+## Environment Variables
+
+See `.env.example`.
+
+- `NEXT_PUBLIC_SITE_URL` (required): canonical metadata and sitemap base URL
+- `GOOGLE_SITE_VERIFICATION` (optional): Google Search Console verification
+- `BING_SITE_VERIFICATION` (optional): Bing Webmaster verification
+
+## Project Structure
+
+- `src/app` - Next.js routes, metadata routes, and docs pages
+- `src/components/docs` - reusable docs UI components
+- `src/lib` - docs/content loaders, utilities, and helpers
+- `content/docs` - Markdown and MDX content files
+- `public` - logos, fonts, and banner assets
+- `.github/workflows/ci.yml` - CI pipeline
+
+## Deployment
 
 1. Import this repository in Vercel.
-2. Use the repository root as the project root directory.
-3. Add environment variables from `.env.example`.
-4. Deploy.
-5. Confirm `https://your-domain.com/robots.txt` and `https://your-domain.com/sitemap.xml` are reachable.
+2. Set environment variables from `.env.example`.
+3. Deploy.
+4. Verify:
+- `/robots.txt` is reachable
+- `/sitemap.xml` is reachable
+- canonical and social metadata render correctly
 
-## SEO verification checklist
+## Affinity Banner Workflow
 
-- `NEXT_PUBLIC_SITE_URL` points to the production domain.
-- Canonical tags resolve to the production domain.
-- Open Graph metadata renders valid title/description/image.
-- `robots.txt` includes sitemap location.
-- `sitemap.xml` lists expected docs URLs.
-- Google Search Console sitemap submitted.
-- Bing Webmaster sitemap submitted.
+Use this workflow in Affinity Designer to create a homepage banner that matches your existing logo style:
 
-## Customize for your project
+1. Create a canvas at `1800 x 620`.
+2. Add a dark gradient background: `#030816 -> #0a1730 -> #132b56`.
+3. Add two radial glows:
+- top-right glow `#4f83ff` at `30-35%` opacity
+- lower-left glow `#2f5de6` at `25-30%` opacity
+4. Add a subtle grid/noise texture at `10-18%` opacity.
+5. Place your logo icon on the left inside a rounded rectangle panel.
+6. Add headline text on the right: `KlyvantaDocs`.
+7. Add a one-line subtitle and 2-3 pill chips (for example: `Fast MDX Authoring`, `Search + SEO Built-in`, `Ready for Vercel Deploy`).
+8. Export as `WebP` (quality 80-90) or `PNG` and save as `public/klyvantadocs-home-banner.webp`.
+9. If you export a new format, update `bannerImage` in `content/docs/index.mdx`.
 
-1. Replace starter docs in `content/docs`.
-2. Update branding and navigation links in `src/components/docs`.
-3. Tune metadata defaults in `src/app/layout.tsx`.
-4. Adjust visual tokens in `src/app/globals.css`.
+The repo currently includes a ready-to-use SVG banner at `public/klyvantadocs-home-banner.svg` so your homepage already has a branded hero.
+
+## Branding Notes
+
+- Topbar logo files are at `public/logo_dark.png` and `public/logo_light.png`.
+- README logo files are at `public/kdocs_logo_dark.png` and `public/kdocs_logo_light.png`.
+- Docs homepage banner frontmatter is configured in `content/docs/index.mdx`.
 
 ## License
 
