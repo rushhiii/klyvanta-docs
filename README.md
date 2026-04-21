@@ -1,8 +1,16 @@
 # docs-launchpad
 
-Production-ready documentation starter built with Next.js App Router, TypeScript, Tailwind CSS, and MDX.
+Build and ship stunning developer docs fast with a polished, production-ready starter that blends premium UX, SEO-first architecture, and frictionless MDX authoring.
+
+[![Live Docs Example](https://img.shields.io/badge/Live%20Docs-scriptablehub.vercel.app-111827?logo=vercel&logoColor=white)](https://scriptablehub.vercel.app)
+[![Next.js](https://img.shields.io/badge/Next.js-16-black?logo=next.js&logoColor=white)](https://nextjs.org)
+[![TypeScript](https://img.shields.io/badge/TypeScript-5.8-3178C6?logo=typescript&logoColor=white)](https://www.typescriptlang.org)
+[![Tailwind CSS](https://img.shields.io/badge/Tailwind-3.4-06B6D4?logo=tailwindcss&logoColor=white)](https://tailwindcss.com)
+[![MDX](https://img.shields.io/badge/Content-MDX-1f2937)](https://mdxjs.com)
 
 This repository is designed to be reused across product docs, SDK docs, API guides, and internal knowledge bases.
+
+Live docs example built using this starter: https://scriptablehub.vercel.app
 
 ## Alternative name ideas
 

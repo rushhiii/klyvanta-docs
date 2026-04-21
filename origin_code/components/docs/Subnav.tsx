@@ -26,7 +26,7 @@ const baseSubnavLinks = [
   { title: 'Overview', href: '/docs/home', icon: 'home' },
   { title: 'Installation', href: '/docs/installation', icon: 'download' },
   { title: 'Usage', href: '/docs/usage', icon: 'book' },
-  { title: 'Components', href: '/docs/components/callouts-and-tips', icon: 'grid' },
+  { title: 'Widgets', href: '/docs/widgets', icon: 'grid' },
 ] as const;
 
 type LanguageOption = {
@@ -401,7 +401,7 @@ export function DocsSubnav({ resourcesLinks }: DocsSubnavProps) {
   return (
     <div className="subnav">
       <div className="subnav-inner" ref={subnavRef}>
-        <div className="subnav-label">Reusable Documentation Starter</div>
+        <div className="subnav-label">Scriptable iOSWidgets Docs</div>
 
         <nav
           className="subnav-links"

@@ -21,14 +21,13 @@ type TopNavItem = {
 const topNav: TopNavItem[] = [
   { title: 'Home', href: '/docs/home' },
   {
-    title: 'Guides',
-    href: '/docs/guides/content-architecture',
+    title: 'Product',
+    href: '/docs/widgets',
     children: [
-      { title: 'Getting Started', href: '/docs/getting-started' },
+      { title: 'Overview', href: '/docs/home' },
       { title: 'Installation', href: '/docs/installation' },
       { title: 'Usage', href: '/docs/usage' },
-      { title: 'Components', href: '/docs/components/callouts-and-tips' },
-      { title: 'Reference', href: '/docs/reference/seo-checklist' },
+      { title: 'Widgets', href: '/docs/widgets' },
     ],
   },
   { title: 'Changelog', href: '/docs/changelog' },
@@ -184,10 +183,10 @@ export function DocsTopbar() {
             <SearchCommand />
             <a
               className="topbar-repo-icon-link"
-              href="https://github.com/your-org/your-repo"
+              href="https://github.com/rushhiii/Scriptable-IOSWidgets"
               target="_blank"
               rel="noreferrer"
-              aria-label="Open repository"
+              aria-label="Visit GitHub repository"
             >
               <ExternalLink size={16} aria-hidden="true" />
             </a>
@@ -355,7 +354,7 @@ export function DocsTopbar() {
 
                 <a
                   className="topnav-overflow-link topnav-overflow-link-external"
-                  href="https://vercel.com/new"
+                  href="https://github.com/rushhiii/Scriptable-IOSWidgets"
                   target="_blank"
                   rel="noreferrer"
                   role="menuitem"
@@ -364,44 +363,19 @@ export function DocsTopbar() {
                     setOpenOverflowParent(null);
                   }}
                 >
-                  Deploy on Vercel
-                </a>
-
-                <a
-                  className="topnav-overflow-link"
-                  href="https://github.com/your-org/your-repo"
-                  target="_blank"
-                  rel="noreferrer"
-                  role="menuitem"
-                  onClick={() => {
-                    setIsOverflowMenuOpen(false);
-                    setOpenOverflowParent(null);
-                  }}
-                >
-                  {/* Use This Starter */}
-                  Clone Repo
+                  Visit Repo
                 </a>
               </div>
             </div>
           </div>
 
           <a
-            className="action-button"
-            href="https://vercel.com/new"
-            target="_blank"
-            rel="noreferrer"
-          >
-            Deploy on Vercel
-          </a>
-
-          <a
             className="action-button action-button-primary"
-            href="https://github.com/your-org/your-repo"
+            href="https://github.com/rushhiii/Scriptable-IOSWidgets"
             target="_blank"
             rel="noreferrer"
           >
-            {/* Use This Starter */}
-            Clone Repo
+            Visit Repo
           </a>
         </div>
       </div>

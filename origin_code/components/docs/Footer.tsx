@@ -1,7 +1,7 @@
 import Link from 'next/link';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faGithub, faLinkedin, faXTwitter } from '@fortawesome/free-brands-svg-icons';
-import { faEnvelope } from '@fortawesome/free-solid-svg-icons';
+import { faGithub, faLinkedin } from '@fortawesome/free-brands-svg-icons';
+import { faEnvelope, faGlobe } from '@fortawesome/free-solid-svg-icons';
 
 const FOOTER_LOGO_LIGHT_URL = '/logo_light.png';
 const FOOTER_LOGO_DARK_URL = '/logo_dark.png';
@@ -10,46 +10,37 @@ const footerColumns = [
   {
     title: 'Docs',
     links: [
-      { label: 'Home', href: '/docs/home' },
       { label: 'Getting Started', href: '/docs/getting-started' },
-      { label: 'Reference', href: '/docs/reference/seo-checklist' },
+      { label: 'Installation', href: '/docs/installation' },
+      { label: 'Widgets', href: '/docs/widgets' },
     ],
   },
   {
     title: 'Project',
     links: [
-      { label: 'Contributing', href: '/docs/contributing' },
       { label: 'Changelog', href: '/docs/changelog' },
-      { label: 'Repository', href: 'https://github.com/your-org/your-repo' },
+      { label: 'Contributing', href: '/docs/contributing' },
+      { label: 'Repository', href: 'https://github.com/rushhiii/Scriptable-IOSWidgets' },
     ],
   },
   {
-    title: 'Platform',
+    title: 'More',
     links: [
-      { label: 'Next.js', href: 'https://nextjs.org/docs' },
-      { label: 'Tailwind CSS', href: 'https://tailwindcss.com/docs' },
-      { label: 'Vercel', href: 'https://vercel.com/docs' },
+      { label: 'Docs Home', href: '/docs' },
+      { label: 'Scriptable', href: 'https://scriptable.app' },
     ],
   },
-] as const;
+];
 
 export function DocsFooter() {
   return (
     <footer className="docs-footer" aria-label="Site footer">
       <div className="docs-footer-inner">
         <div className="docs-footer-logo">
-          <Link href="/docs/home" className="docs-footer-logo-icon" aria-label="Docs home">
-            <img
-              className="docs-footer-logo-image docs-footer-logo-image-light"
-              src={FOOTER_LOGO_LIGHT_URL}
-              alt=""
-            />
-            <img
-              className="docs-footer-logo-image docs-footer-logo-image-dark"
-              src={FOOTER_LOGO_DARK_URL}
-              alt=""
-            />
-          </Link>
+          <span className="docs-footer-logo-icon" aria-hidden="true">
+            <img className="docs-footer-logo-image docs-footer-logo-image-light" src={FOOTER_LOGO_LIGHT_URL} alt="" />
+            <img className="docs-footer-logo-image docs-footer-logo-image-dark" src={FOOTER_LOGO_DARK_URL} alt="" />
+          </span>
         </div>
 
         <div className="docs-footer-columns">
@@ -79,7 +70,7 @@ export function DocsFooter() {
       <div className="docs-footer-social" aria-label="Social links">
         <Link
           className="docs-footer-social-link"
-          href="https://github.com/your-org/your-repo"
+          href="https://github.com/rushhiii/Scriptable-IOSWidgets"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
@@ -88,7 +79,7 @@ export function DocsFooter() {
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="https://www.linkedin.com/company/your-company"
+          href="https://www.linkedin.com/in/rushhiii"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -97,18 +88,16 @@ export function DocsFooter() {
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="https://x.com/your-handle"
+          href="https://rushhiii.github.io/Scriptable-IOSWidgets/"
           target="_blank"
           rel="noreferrer"
-          aria-label="Twitter / X"
+          aria-label="Portfolio"
         >
-          <FontAwesomeIcon icon={faXTwitter} className="docs-footer-social-icon" aria-hidden="true" />
-          {/* <FontAwesomeIcon icon={faLinkedin} className="docs-footer-social-icon" aria-hidden="true" /> */}
-          {/* <i className="fa-brands fa-x-twitter docs-footer-social-icon" aria-hidden="true"></i> */}
+          <FontAwesomeIcon icon={faGlobe} className="docs-footer-social-icon" aria-hidden="true" />
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="mailto:hello@example.com"
+          href="mailto:rushiofficial1205@gmail.com"
           aria-label="Gmail"
         >
           <FontAwesomeIcon icon={faEnvelope} className="docs-footer-social-icon" aria-hidden="true" />
