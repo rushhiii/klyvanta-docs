@@ -47,6 +47,7 @@
 	<a href="#quick-start">Quick Start</a> |
 	<a href="#features">Features</a> |
 	<a href="#project-structure">Project Structure</a> |
+	<a href="#community-and-governance">Community</a> |
 	<a href="#deployment">Deployment</a> |
 	<a href="#affinity-banner-workflow">Affinity Banner Workflow</a>
 </p>
@@ -134,14 +135,21 @@ Use this workflow in Affinity Designer to create a homepage banner that matches 
 8. Export as `WebP` (quality 80-90) or `PNG` and save as `public/klyvantadocs-home-banner.webp`.
 9. If you export a new format, update `bannerImage` in `content/docs/index.mdx`.
 
-The repo currently includes a ready-to-use SVG banner at `public/klyvantadocs-home-banner.svg` so your homepage already has a branded hero.
 
 ## Branding Notes
 
-- Topbar logo files are at `public/logo_dark.png` and `public/logo_light.png`.
-- README logo files are at `public/kdocs_logo_dark.png` and `public/kdocs_logo_light.png`.
-- Docs homepage banner frontmatter is configured in `content/docs/index.mdx`.
+- All assets are in the `public` folder.
+- To design something similar, the Affinity `.af` files are in `/public/affinity` (`public/affinity_templets` in this repository). Download Affinity Designer: https://affinity.serif.com/en-us/designer/
+
+## Community and Governance
+
+To keep this repository reliable, product-focused, and easy to maintain at scale:
+
+- `CODE_OF_CONDUCT.md` defines expected behavior and community standards.
+- `CONTRIBUTING.md` defines contribution flow, quality checks, and product principles.
+- `SECURITY.md` defines supported versions and responsible vulnerability reporting.
+- `LICENSE` defines usage rights under MIT.
 
 ## License
 
-MIT
+See [MIT LICENSE](./LICENSE).
