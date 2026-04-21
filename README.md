@@ -1,24 +1,24 @@
-<!-- <p align="center">
-	<picture>
-		<source media="(prefers-color-scheme: dark)" srcset="./public/kdocs_logo_dark.png" />
-		<source media="(prefers-color-scheme: light)" srcset="./public/kdocs_logo_light.png" />
-		<img src="./public/kdocs_logo_dark.png" alt="KlyvantaDocs" width="760" />
-	</picture>
-</p> -->
-
-
 <p align="center">
-	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="100%" style="border-radius: 30px;" />
+	<picture>
+		<source media="(prefers-color-scheme: dark)" srcset="./public/logo_icon_dark.png" />
+		<source media="(prefers-color-scheme: light)" srcset="./public/logo_icon_dark.png" />
+		<img src="./public/logo_icon_dark.png" alt="KlyvantaDocs" width="760" />
+	</picture>
 </p>
 
-<!-- <p align="center">
-	<strong>KlyvantaDocs</strong><br />
-	Design-forward docs starter for product teams and open-source maintainers.
-</p> -->
 <!-- 
 <p align="center">
-	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="760px" />
+	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/repo_banner.png.png" alt="repo_banner" width="100%" style="border-radius: 30px;" />
 </p> -->
+
+<p align="center">
+	<strong>KlyvantaDocs</strong><br />
+	Design-forward docs starter for product teams and open-source maintainers.
+</p>
+
+<p align="center">
+	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/repo_banner.png" alt="repo_banner" width="100%" />
+</p>
 
 <p align="center">
 	<a href="https://github.com/rushhiii/docs-launchpad/actions/workflows/ci.yml"><img src="https://img.shields.io/github/actions/workflow/status/rushhiii/docs-launchpad/ci.yml?branch=main&label=CI&logo=githubactions&logoColor=white" alt="CI" /></a>
