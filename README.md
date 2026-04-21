@@ -2,7 +2,7 @@
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="./public/logo_icon_dark.png" />
 		<source media="(prefers-color-scheme: light)" srcset="./public/logo_icon_dark.png" />
-		<img src="./public/logo_icon_dark.png" alt="KlyvantaDocs" width="70" />
+		<img src="./public/logo_icon_dark.png" alt="KlyvantaDocs" width="106" />
 	</picture>
 </p>
 
