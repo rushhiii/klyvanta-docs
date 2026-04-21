@@ -1,10 +1,10 @@
-<p align="center">
+<!-- <p align="center">
 	<picture>
 		<source media="(prefers-color-scheme: dark)" srcset="./public/kdocs_logo_dark.png" />
 		<source media="(prefers-color-scheme: light)" srcset="./public/kdocs_logo_light.png" />
 		<img src="./public/kdocs_logo_dark.png" alt="KlyvantaDocs" width="760" />
 	</picture>
-</p>
+</p> -->
 
 <p align="center">
 	<strong>KlyvantaDocs</strong><br />
@@ -12,7 +12,7 @@
 </p>
 
 <p align="center">
-	<img src="./public/klyvantadocs-home-banner.svg" alt="KlyvantaDocs homepage banner" width="100%" />
+	<img src="https://raw.githubusercontent.com/rushhiii/klyvanta-docs/refs/heads/main/public/homepage_banner.png" alt="repo_banner" width="760px" />
 </p>
 
 <p align="center">
