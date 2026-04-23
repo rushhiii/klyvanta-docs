@@ -5,6 +5,8 @@ node_modules/
 .next/
 out/
 prvt/
+.continue/
+.vscode/
 
 # local env
 .env*.local
