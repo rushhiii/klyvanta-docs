@@ -369,7 +369,7 @@ export function DocsTopbar() {
 
                 <a
                   className="topnav-overflow-link"
-                  href="https://github.com/your-org/your-repo"
+                  href="https://github.com/rushhiii/klyvanta-docs/fork"
                   target="_blank"
                   rel="noreferrer"
                   role="menuitem"
@@ -379,7 +379,8 @@ export function DocsTopbar() {
                   }}
                 >
                   {/* Use This Starter */}
-                  Clone Repo
+                  {/* Clone Repo */}
+                  Fork Repo
                 </a>
               </div>
             </div>
@@ -396,12 +397,13 @@ export function DocsTopbar() {
 
           <a
             className="action-button action-button-primary"
-            href="https://github.com/your-org/your-repo"
+            href="https://github.com/rushhiii/klyvanta-docs/fork"
             target="_blank"
             rel="noreferrer"
           >
             {/* Use This Starter */}
-            Clone Repo
+            {/* Clone Repo */}
+            Fork Repo
           </a>
         </div>
       </div>

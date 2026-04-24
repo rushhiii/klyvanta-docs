@@ -79,7 +79,7 @@ export function DocsFooter() {
       <div className="docs-footer-social" aria-label="Social links">
         <Link
           className="docs-footer-social-link"
-          href="https://github.com/your-org/your-repo"
+          href="https://github.com/rushhiii/klyvanta-docs/"
           target="_blank"
           rel="noreferrer"
           aria-label="GitHub"
@@ -88,7 +88,7 @@ export function DocsFooter() {
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="https://www.linkedin.com/company/your-company"
+          href="https://www.linkedin.com/in/rushhiii/"
           target="_blank"
           rel="noreferrer"
           aria-label="LinkedIn"
@@ -97,7 +97,7 @@ export function DocsFooter() {
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="https://x.com/your-handle"
+          href=""
           target="_blank"
           rel="noreferrer"
           aria-label="Twitter / X"
@@ -108,7 +108,7 @@ export function DocsFooter() {
         </Link>
         <Link
           className="docs-footer-social-link"
-          href="mailto:hello@example.com"
+          href="mailto:rushiofficial120506@gmail.com"
           aria-label="Gmail"
         >
           <FontAwesomeIcon icon={faEnvelope} className="docs-footer-social-icon" aria-hidden="true" />
