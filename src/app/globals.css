@@ -1703,7 +1703,8 @@ button.subnav-dropdown-link {
     width: calc(100% + 2rem);
     margin-left: -2rem;
     margin-bottom: 0.38rem;
-    height: 40dvh;
+    /* height: 40dvh; */
+    height: max-content;
     min-height: 100px;
     /* max-height: 560px; */
     aspect-ratio: auto;
@@ -2454,7 +2455,7 @@ html[data-theme='light'] .docs-footer-logo-image-dark {
   /* border: 1px solid color-mix(in srgb, var(--border) 88%, transparent); */
   background: color-mix(in srgb, var(--surface-strong) 62%, transparent);
   overflow: hidden;
-  aspect-ratio: 16 / 5.4;
+  /* aspect-ratio: 16 / 5.4; */
 }
 
 
@@ -3724,7 +3725,7 @@ code {
     margin-left: calc(50% - 50vw);
     margin-right: calc(50% - 50vw);
     margin-bottom: clamp(0.26rem, 1vw, 0.4rem);
-    height: clamp(170px, 34vw, 340px);
+    /* height: clamp(170px, 34vw, 340px); */
     min-height: 0;
     max-height: none;
     aspect-ratio: auto;
@@ -3853,7 +3854,7 @@ code {
   .doc-page-banner {
     /* margin-bottom: 1.45rem; */
     /* border-radius: 16px; */
-    aspect-ratio: 16 / 7;
+    /* aspect-ratio: 16 / 7; */
   }
 
   .doc-page-banner-caption {
@@ -4715,7 +4716,7 @@ code {
   }
 
   .docs-shell.docs-shell-with-banner>.doc-page-banner-shell {
-    height: clamp(145px, 36vw, 250px);
+    /* height: clamp(145px, 36vw, 250px); */
     margin-bottom: clamp(0.18rem, 0.9vw, 0.34rem);
   }
 
@@ -4812,7 +4813,7 @@ code {
   }
 
   .docs-shell.docs-shell-with-banner>.doc-page-banner-shell {
-    height: clamp(128px, 40vw, 210px);
+    /* height: clamp(128px, 40vw, 210px); */
     margin-bottom: clamp(0.12rem, 0.7vw, 0.24rem);
   }
 
